@@ -1,7 +1,7 @@
 const int trigPin = 9;
 const int echoPin = 8;
 const int motor = 5;
-const int buzzerPin = 3; // номер піна для бузера
+const int buzzerPin = 4;
 long duration = 0;
 
 void setup()
