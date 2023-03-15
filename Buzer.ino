@@ -23,9 +23,9 @@ return distanceCalc;
 void loop()
 {
 digitalWrite(trigPin, LOW);
-delayMicroseconds(2);
+delayMicroseconds(500);
 digitalWrite(trigPin, HIGH);
-delayMicroseconds(10);
+delayMicroseconds(1000);
 digitalWrite(trigPin, LOW);
 
 duration = pulseIn(echoPin, HIGH);
